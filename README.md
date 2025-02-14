@@ -1,2 +1,2 @@
 # sal_cs
-Coding Exercises for Computing Science Students
+Coding exercises/resources for Computing Science students
