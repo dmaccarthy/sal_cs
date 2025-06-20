@@ -17,6 +17,6 @@ def main():
     file1 = input(prompt)
     file2 = input(prompt)
     same = compare(file1, file2)
-    print("The files are {} the same.".format("" if same else "NOT"))
+    print("The files are{} the same.".format("" if same else " NOT"))
 
 main()
