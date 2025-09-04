@@ -5,6 +5,6 @@ Example 4
 
 """
 
-from sal_sp1 import message
+from sal_py import message
 
 print(message)

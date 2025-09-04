@@ -5,7 +5,7 @@ Example 1
 
 """
 
-from sal_sp2 import marks_list
+from sal_py import marks_list
 
 # Initialize accumulators
 student = 0

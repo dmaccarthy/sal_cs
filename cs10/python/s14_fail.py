@@ -5,7 +5,7 @@ Question 3: Searching
 
 """
 
-from sal_sp2 import student_marks
+from sal_py import student_marks
 
 # Modify this loop as described in the question
 
