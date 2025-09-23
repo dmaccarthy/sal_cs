@@ -5,8 +5,8 @@ from sc8pr.sprite import Sprite
 
 def setup(sk):
     "Initialize the sketch"
-    sk.bg = Image("img/sky.png")
-    sk["player"] = Sprite("img/alien.png").config(
+    sk.bg = Image("../img/sky.png")
+    sk["player"] = Sprite("../img/alien.png").config(
         pos=sk.center, width=sk.width / 10
     ).bind(ondrag, onclick, onmouseover)
     sk.bind(onclick=missed)

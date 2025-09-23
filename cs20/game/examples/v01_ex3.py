@@ -5,8 +5,8 @@ from sc8pr.sprite import Sprite
 
 def setup(sk):
     "Create a background and a single sprite"
-    sk.bg = Image("img/sky.png")
-    sk += Sprite("img/alien.png")
+    sk.bg = Image("../img/sky.png")
+    sk += Sprite("../img/alien.png")
 
 # Play the sketch
 Sketch().play()

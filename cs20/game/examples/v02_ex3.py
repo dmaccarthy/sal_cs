@@ -7,8 +7,8 @@ from sc8pr.geom import delta
 
 def setup(sk):
     "Initialize the sketch"
-    sk.bg = Image("img/sky.png")
-    sk.alien = Image("img/alien.png")
+    sk.bg = Image("../img/sky.png")
+    sk.alien = Image("../img/alien.png")
     sk.bind(ondraw)
 
 def ondraw(sk, ev):
