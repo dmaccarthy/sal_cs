@@ -18,15 +18,15 @@ from datetime import date, time
 
 def test():
     cal = [{
-        "date": date(2019, 1, 31),
+        "date": date(2023, 1, 31),
         "description": "Semester 2 Begins"
     }, {
-        "date": date(2019, 2, 2),
+        "date": date(2023, 2, 2),
         "time": time(11, 30),
         "endTime": time(13, 0),
         "description": "Workout in Fitness Centre"
     }, {
-        "date": date(2019, 2, 7),
+        "date": date(2023, 2, 7),
         "description": "No School - Teachers Convention"
     }]
     filename = "calendar.txt"
@@ -34,7 +34,7 @@ def test():
         for event in cal:
             saveEvent(event, f)
     revised = {
-        "date": date(2019, 2, 2),
+        "date": date(2023, 2, 2),
         "time": time(11, 0),
         "endTime": time(12, 30),
         "description": "Workout in Fitness Centre"
