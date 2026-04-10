@@ -9,4 +9,3 @@ else:
         for line in data:
             text.write(line + "\n")
     print("Finished writing {}.".format(filename))
-    

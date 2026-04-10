@@ -6,3 +6,4 @@ textAsStr = str(textAsBytes, encoding="UTF-8")
 
 print(textAsBytes) # bytearray(b'\xc2\xa9 2025 by Jane Doe')
 print(textAsStr)   # © 2025 by Jane Doe
+

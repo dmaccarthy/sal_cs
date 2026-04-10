@@ -12,9 +12,9 @@ def getRecord(recNum, data, indx):
     pass
 
 def main():
-    indx = readIndex("data/ab.indx")
+    indx = readIndex("resource/ab.indx")
     print("Enter -1 to quit...")
-    with open("data/ab.txt") as data:
+    with open("resources/ab.txt") as data:
         recNum = None
         while recNum != -1:
             recNum = int(input("Record number: "))

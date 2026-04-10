@@ -7,7 +7,7 @@ from random import choice
 
 # Complete this function only...
 
-def readPuzzles(filename="data/puzzles.txt"):
+def readPuzzles(filename="resource/puzzles.txt"):
     return []
 
 

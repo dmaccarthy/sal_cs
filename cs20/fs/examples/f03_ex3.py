@@ -19,4 +19,3 @@ with open("contacts.json", "w", encoding="UTF-8") as f:
 
 with open("contacts.json", encoding="UTF-8") as f:
     print(json.load(f)["contacts"])
-    
