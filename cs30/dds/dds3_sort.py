@@ -19,10 +19,11 @@ students.insert(Student() for i in range(1200))
 # Sort
 recursive = False
 if recursive:
-    students.mSort(compareBirthday)
+    students_sorted = students.mSort(compareBirthday)
 else:
     students.iSort(compareBirthday)
+    students_sorted = students
 
 # Print results
-for student in students:
+for student in students_sorted:
     print(student.data)
