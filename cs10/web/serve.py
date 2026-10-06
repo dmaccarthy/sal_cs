@@ -1,12 +1,10 @@
 """Static file server using Python's standard http.server module"""
 
-import http.server
-import socketserver
+from http.server import HTTPServer, SimpleHTTPRequestHandler
 
 PORT = 8000
 
-handler = http.server.SimpleHTTPRequestHandler
+httpd = HTTPServer(('', PORT), SimpleHTTPRequestHandler)
+print(f"Serving on 'http://localhost:{PORT}'")
+httpd.serve_forever()
 
-with socketserver.TCPServer(("", PORT), handler) as httpd:
-    print(f"Serving on 'http://localhost:{PORT}'")
-    httpd.serve_forever()
